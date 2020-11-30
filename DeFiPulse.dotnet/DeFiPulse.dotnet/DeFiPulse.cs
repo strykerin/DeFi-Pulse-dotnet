@@ -19,8 +19,7 @@ namespace DeFiPulse
 
         public async Task<GasPrice> GetGasPriceAsync()
         {
-            var result =  await _httpClient.GetFromJsonAsync<GasPrice>($"egs/api/ethgasAPI.json?api-key={_apiKey}");
-            return result;
+            return await _httpClient.GetFromJsonAsync<GasPrice>($"egs/api/ethgasAPI.json?api-key={_apiKey}");
         }
     }
 }
