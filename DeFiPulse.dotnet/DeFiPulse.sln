@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeFiPulse.dotnet", "DeFiPulse.dotnet\DeFiPulse.dotnet.csproj", "{62E876CE-56AB-48D4-855E-0AA7614BC482}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeFiPulse", "DeFiPulse.dotnet\DeFiPulse.csproj", "{62E876CE-56AB-48D4-855E-0AA7614BC482}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
