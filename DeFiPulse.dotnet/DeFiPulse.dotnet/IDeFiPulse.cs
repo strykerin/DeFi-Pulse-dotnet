@@ -10,5 +10,11 @@ namespace DeFiPulse
         /// </summary>
         /// <returns></returns>
         Task<GasPrice> GetGasPriceAsync();
+
+        /// <summary>
+        /// Returns current Total Value Locked (TVL) in each category and their dominant projects on DeFi Pulse.
+        /// </summary>
+        /// <returns></returns>
+        Task<DeFiProjectsMarketOverview> GetDeFiProjectsMarketOverview();
     }
 }
