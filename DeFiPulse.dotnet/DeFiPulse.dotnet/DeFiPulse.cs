@@ -26,5 +26,10 @@ namespace DeFiPulse
         {
             return await _httpClient.GetFromJsonAsync<DeFiProjectsMarketOverview>($"defipulse/api/MarketData?api-key={_apiKey}");
         }
+
+        public async Task GetHistory()
+        {
+            return await _httpClient.GetFromJsonAsync<>();
+        }
     }
 }
