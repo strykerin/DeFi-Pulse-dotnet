@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>DeFiPulse</PackageId>
+    <Authors>strykerin</Authors>
+    <Description>A dotnet standard wrapper for the DeFi Pulse API.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>DeFi, DeFiPulse, Ethereum</PackageTags>
+    <RepositoryUrl>https://github.com/strykerin/DeFi-Pulse-dotnet</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

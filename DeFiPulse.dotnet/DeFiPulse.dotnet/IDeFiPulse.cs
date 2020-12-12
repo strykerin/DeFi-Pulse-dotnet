@@ -1,4 +1,5 @@
 ﻿using DeFiPulse.Entities;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace DeFiPulse
@@ -16,5 +17,14 @@ namespace DeFiPulse
         /// </summary>
         /// <returns></returns>
         Task<DeFiProjectsMarketOverview> GetDeFiProjectsMarketOverview();
+
+        /// <summary>
+        /// Returns historical Total Value Locked (TVL) for a given project over a given period of time.
+        /// </summary>
+        /// <param name="project">Project name. Corresponds to the slug of a project when clicking on it on defipulse.com. Example below</param>
+        /// <param name="period">Time period 1w, 1m, 3m, 1y or all. The 1wperiod will return to hourly values, all other periods will return daily values. Default all.</param>
+        /// <param name="format">Use csv to obtain data in CSV format instead of json. </param>
+        /// <returns></returns>
+        Task<List<HistoricalTLV>> GetHistory(string project = null, string period = null, string length = null, string resolution = null, string category = null);
     }
 }
