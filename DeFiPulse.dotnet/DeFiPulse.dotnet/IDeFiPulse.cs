@@ -25,6 +25,6 @@ namespace DeFiPulse
         /// <param name="period">Time period 1w, 1m, 3m, 1y or all. The 1wperiod will return to hourly values, all other periods will return daily values. Default all.</param>
         /// <param name="format">Use csv to obtain data in CSV format instead of json. </param>
         /// <returns></returns>
-        Task<List<HistoricalTLV>> GetHistory(string project = null, string period = null, string format = null);
+        Task<List<HistoricalTLV>> GetHistory(string project = null, string period = null, string length = null, string resolution = null, string category = null);
     }
 }
