@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using System;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Json;
 using DeFiPulse.Entities;
@@ -16,8 +17,8 @@ namespace DeFiPulse
 
         public DeFiPulse(HttpClient httpClient, string apiKey)
         {
-            _httpClient = httpClient;
-            _apiKey = apiKey;
+            _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
+            _apiKey = apiKey ?? throw new ArgumentNullException(nameof(apiKey));
         }
 
         public async Task<GasPrice> GetGasPriceAsync()
