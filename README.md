@@ -1,4 +1,4 @@
-# DeFi-Pulse-dotnet
+# DeFi Pulse dotnet
 [![NuGet version (DeFiPulse)](https://img.shields.io/nuget/v/DeFiPulse.svg)](https://www.nuget.org/packages/DeFiPulse/) ![Nuget downloads](https://img.shields.io/nuget/dt/DeFiPulse.svg)
 
 
