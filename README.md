@@ -4,6 +4,13 @@
 
 A dotnet standard wrapper for the DeFi Pulse API.
 
+## Installation
+Available on [Nuget](https://www.nuget.org/packages/DeFiPulse/).
+
+``` PowerShell
+Install-Package DeFiPulse -Version 1.0.1
+```
+
 ## Register service in your DI container
 In order to use this package, simply add in the `ConfigureServices` method in your `Startup.cs` class:
 
