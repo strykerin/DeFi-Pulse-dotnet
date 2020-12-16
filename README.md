@@ -30,7 +30,7 @@ To have access to the DeFiPulse service, simply get it by constructor injection:
  }
 ```
 
-## Example
+## Example - Get Ethereum Gas Price
 The following example shows how to get the Ethereum Gas Price:
 ```csharp
 GasPrice gasPrice = await _deFiPulse.GetGasPriceAsync();
