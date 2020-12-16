@@ -1,5 +1,6 @@
 # DeFi-Pulse-dotnet
-[![NuGet version (DeFiPulse)](https://img.shields.io/nuget/v/DeFiPulse.svg?style=flat-square)](https://www.nuget.org/packages/DeFiPulse/)
+[![NuGet version (DeFiPulse)](https://img.shields.io/nuget/v/DeFiPulse.svg?style=flat-square)](https://www.nuget.org/packages/DeFiPulse/) ![Nuget downloads](https://img.shields.io/nuget/dt/DeFiPulse.svg)
+
 
 A dotnet standard wrapper for the DeFi Pulse API.
 
